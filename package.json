@@ -1,0 +1,25 @@
+{
+  "name": "tickets-frontend",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/solid-js": "^4.0.1",
+    "astro": "^4.5.12",
+    "date-fns": "^3.6.0",
+    "solid-js": "^1.8.16",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3",
+    "@pandacss/dev": "^0.36.1"
+  }
+}
