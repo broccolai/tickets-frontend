@@ -13,9 +13,13 @@
   "dependencies": {
     "@astrojs/check": "^0.5.10",
     "@astrojs/solid-js": "^4.0.1",
+    "@fontsource/open-sans": "^5.0.27",
+    "@fontsource/pt-mono": "^5.0.12",
+    "@pandacss/astro": "^0.25.0",
     "astro": "^4.5.12",
     "date-fns": "^3.6.0",
     "solid-js": "^1.8.16",
+    "terracotta": "^1.0.5",
     "typescript": "^5.4.3"
   },
   "devDependencies": {

@@ -1,28 +1,4 @@
 const tokens = {
-  "aspectRatios.square": {
-    "value": "1 / 1",
-    "variable": "var(--aspect-ratios-square)"
-  },
-  "aspectRatios.landscape": {
-    "value": "4 / 3",
-    "variable": "var(--aspect-ratios-landscape)"
-  },
-  "aspectRatios.portrait": {
-    "value": "3 / 4",
-    "variable": "var(--aspect-ratios-portrait)"
-  },
-  "aspectRatios.wide": {
-    "value": "16 / 9",
-    "variable": "var(--aspect-ratios-wide)"
-  },
-  "aspectRatios.ultrawide": {
-    "value": "18 / 5",
-    "variable": "var(--aspect-ratios-ultrawide)"
-  },
-  "aspectRatios.golden": {
-    "value": "1.618 / 1",
-    "variable": "var(--aspect-ratios-golden)"
-  },
   "borders.none": {
     "value": "none",
     "variable": "var(--borders-none)"
@@ -166,18 +142,6 @@ const tokens = {
   "lineHeights.loose": {
     "value": "2",
     "variable": "var(--line-heights-loose)"
-  },
-  "fonts.sans": {
-    "value": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-    "variable": "var(--fonts-sans)"
-  },
-  "fonts.serif": {
-    "value": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
-    "variable": "var(--fonts-serif)"
-  },
-  "fonts.mono": {
-    "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
-    "variable": "var(--fonts-mono)"
   },
   "letterSpacings.tighter": {
     "value": "-0.05em",
@@ -1674,6 +1638,26 @@ const tokens = {
   "animations.bounce": {
     "value": "bounce 1s infinite",
     "variable": "var(--animations-bounce)"
+  },
+  "fonts.sans": {
+    "value": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "variable": "var(--fonts-sans)"
+  },
+  "fonts.serif": {
+    "value": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+    "variable": "var(--fonts-serif)"
+  },
+  "fonts.mono": {
+    "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "variable": "var(--fonts-mono)"
+  },
+  "fonts.title": {
+    "value": "PT Mono, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "variable": "var(--fonts-title)"
+  },
+  "fonts.body": {
+    "value": "Open Sans, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "variable": "var(--fonts-body)"
   },
   "breakpoints.sm": {
     "value": "640px",
